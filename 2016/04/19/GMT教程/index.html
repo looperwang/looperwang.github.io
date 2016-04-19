@@ -65,7 +65,7 @@ GMT简介　　GMT，全称Generic Mapping Tools，中文一般译为“通用�
 <meta property="og:site_name" content="L O O P E R">
 <meta property="og:description" content="#GMT 教程 V1
 GMT简介　　GMT，全称Generic Mapping Tools，中文一般译为“通用制图工具”。GMT不仅可以用于绘制不同类型的地图，还可以绘制常见的笛卡尔坐标轴（线性轴、对数轴和指数轴）。除此之外，GMT还有一些数据处理和分析的功能，比如多项式拟合、数据滤波、线性回归分析等。">
-<meta property="og:updated_time" content="2016-04-19T09:27:45.182Z">
+<meta property="og:updated_time" content="2016-04-19T09:30:37.290Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GMT教程">
 <meta name="twitter:description" content="#GMT 教程 V1
@@ -273,9 +273,7 @@ GMT简介　　GMT，全称Generic Mapping Tools，中文一般译为“通用�
 <p>　　本文档会针对每一个GMT版本发布相应的文档。目前最新的版本是GMT 5.2.1，读者可以从社区主页的 下载页面 下载网页版和PDF版的文档供离线阅读。  </p>
 <p>　　本文档会不断更新， 项目主页 中总是展示最新最完善的网页版版本。   </p>
 </blockquote>
-<p>##GMT安装教程</p>
-<p>####GMT主体</p>
-<p>　　首先根据GMT官方网站给出的下载镜像选择与自己PC匹配的文件，安装GMT软件。</p>
+<h2 id="GMT安装教程"><a href="#GMT安装教程" class="headerlink" title="GMT安装教程"></a>GMT安装教程</h2><h4 id="GMT主体"><a href="#GMT主体" class="headerlink" title="GMT主体"></a>GMT主体</h4><p>　　首先根据GMT官方网站给出的下载镜像选择与自己PC匹配的文件，安装GMT软件。</p>
 <blockquote>
 <p>例如，WIN-64，选择 <a href="http://gmt.soest.hawaii.edu/files/download?name=gmt-5.2.1-win64.exe" title="软件下载" target="_blank" rel="external">GMT-5.2.1-win64.exe</a> 下载即可。</p>
 </blockquote>
@@ -291,23 +289,19 @@ GMT简介　　GMT，全称Generic Mapping Tools，中文一般译为“通用�
 </ol>
 </li>
 </ol>
-<p>###GMT辅助软件</p>
-<p>　　因为GMT软件是由Unix平台下开发出来的，其编写方便，快捷，也可以跨越平台。但大多数中国用户使用的是PC下win环境所以存在针对快捷编写命令上的功能缺失。若只安装单独的GMT软件，则必须在DOS界面下，进行逐个命令输入，大大降低gmt的快捷性，故在此使用GMT辅助软件，弥补其在win环境下的不足。  </p>
-<p>####Notepad++</p>
-<p>　　首先win下编写Unix脚本需要用到的软件建议使用 <code>Notepad++</code> ,代替系统自带的Notepad（记事本）</p>
+<h3 id="GMT辅助软件"><a href="#GMT辅助软件" class="headerlink" title="GMT辅助软件"></a>GMT辅助软件</h3><p>　　因为GMT软件是由Unix平台下开发出来的，其编写方便，快捷，也可以跨越平台。但大多数中国用户使用的是PC下win环境所以存在针对快捷编写命令上的功能缺失。若只安装单独的GMT软件，则必须在DOS界面下，进行逐个命令输入，大大降低gmt的快捷性，故在此使用GMT辅助软件，弥补其在win环境下的不足。  </p>
+<h4 id="Notepad"><a href="#Notepad" class="headerlink" title="Notepad++"></a>Notepad++</h4><p>　　首先win下编写Unix脚本需要用到的软件建议使用 <code>Notepad++</code> ,代替系统自带的Notepad（记事本）</p>
 <blockquote>
 <p>下载地址：<a href="http://218.58.222.66/ws.cdn.baidupcs.com/file/52fee38f7c0dfd1386bf0988db5b0c63?bkt=p3-0000eec806a1700b6169750b2cc1c27c4231&amp;xcode=430b0c7430ad07ea961f05cdcd248515028e803bcece757bed03e924080ece4b&amp;fid=419678668-250528-483044836558378&amp;time=1461037906&amp;sign=FDTAXGERLBH-DCb740ccc5511e5e8fedcff06b081203-PKUsBeaQgEaUaAbD6ERb8QYyCOE%3D&amp;to=lc&amp;fm=Yan,B,U,nc&amp;sta_dx=13&amp;sta_cs=5&amp;sta_ft=rar&amp;sta_ct=3&amp;fm2=Yangquan,B,U,nc&amp;newver=1&amp;newfm=1&amp;secfm=1&amp;flow_ver=3&amp;pkey=0000eec806a1700b6169750b2cc1c27c4231&amp;sl=72155213&amp;expires=8h&amp;rt=sh&amp;r=982062340&amp;mlogid=2539481614999197407&amp;vuk=2351883568&amp;vbdid=1668449618&amp;fin=Notepad%2B%2B_v6.9.1_Plus_Lfqy_Setup.rar&amp;fn=Notepad%2B%2B_v6.9.1_Plus_Lfqy_Setup.rar&amp;slt=pm&amp;uta=0&amp;rtype=1&amp;iv=0&amp;isw=0&amp;dp-logid=2539481614999197407&amp;dp-callid=0.1.1&amp;wshc_tag=0&amp;wsts_tag=5715ab52&amp;wsid_tag=ca6ed1a2&amp;wsiphost=ipdbm" target="_blank" rel="external"> 百度云盘 （来源ZD423： Notepad++ 简体中文绿色优化版/增强版 2016/4/19）     </a>                                                      </p>
 </blockquote>
 <p>运行安装程序，建议选择默认安装，关联  <code>.sh</code> 文件（使<code>.sh</code>文件默认用notepad++打开）</p>
-<p>####Cygwin</p>
-<p>　　Cygwin是win环境下，用来模拟Unix命令提示符的软件，可以实现对于Unix下的脚本文件操作，对于GMT来说，可以更加方便的进行多个命令的脚本执行，而不会像win下DOS命令。其方便跨越平台，灵活操作</p>
+<h4 id="Cygwin"><a href="#Cygwin" class="headerlink" title="Cygwin"></a>Cygwin</h4><p>　　Cygwin是win环境下，用来模拟Unix命令提示符的软件，可以实现对于Unix下的脚本文件操作，对于GMT来说，可以更加方便的进行多个命令的脚本执行，而不会像win下DOS命令。其方便跨越平台，灵活操作</p>
 <blockquote>
 <p>下载地址 ： <a href="http://cygwin.com/install.html" target="_blank" rel="external">Cygwin官方网站（请自己选择对应win版本）</a></p>
 </blockquote>
 <p>运行安装程序，建议选择默认安装,Cygwin会需要下载Unix插件，会花些时间请耐心等待。默认位置为  <code>C:\cygwin64\home</code>,后期处理<br> <code>.sh</code> 文件，以及GMT默认输出位置都为此。</p>
 <blockquote>
-<p>#####简单的unix命令操作</p>
-</blockquote>
+<h5 id="简单的unix命令操作"><a href="#简单的unix命令操作" class="headerlink" title="简单的unix命令操作"></a>简单的unix命令操作</h5></blockquote>
 <pre><code>ls 显示文件名   
 cd 目录装换（后接你所需要进入的文件夹名称）  
 cd.. 退出到上一级  
@@ -321,20 +315,17 @@ rm 删除文件（后缀与cd相同）
 <p>找到符合个人PC系统的版本下载，运行安装程序建议默认安装。</p>
 <p><strong>至此GMT主体程序安装，以及辅程序安装已经结束。</strong>   
 　　</p>
-<p>##GMT资料推荐</p>
-<blockquote>
+<h2 id="GMT资料推荐"><a href="#GMT资料推荐" class="headerlink" title="GMT资料推荐"></a>GMT资料推荐</h2><blockquote>
 <p>社区参考资料  <a href="http://gmt-china.org/docs/" target="_blank" rel="external"><strong>GMT第三方中文社区</strong>   </a></p>
 <p>视频参考资料  <a href="https://www.youtube.com/watch?v=EyqftO6kb3g&amp;list=PLaillcd38RiIDxIXuKCyCXBWPFvzt12T-" target="_blank" rel="external"><strong>YouTube 陳明凱 个人频道</strong></a>   </p>
 </blockquote>
-<p>##翻墙软件推荐</p>
-<blockquote>
+<h2 id="翻墙软件推荐"><a href="#翻墙软件推荐" class="headerlink" title="翻墙软件推荐"></a>翻墙软件推荐</h2><blockquote>
 <p>免费VPN  <a href="https://getlantern.org/" target="_blank" rel="external"><strong>LANTERN</strong></a></p>
 <p>免费 shadowsocks  <a href="http://www.ishadowsocks.net/" target="_blank" rel="external"><strong>ISHADOWSOCKS</strong></a></p>
 </blockquote>
 <p>凑合能用吧，不是很稳定，还有付费的以及免费质量比较好的（但是注册手段麻烦）。有需要可以@我</p>
 <hr>
-<p>###备注</p>
-<pre><code>基本上看YouTube上陳明凱的个人频道是最快的捷径，结合他给出的相应的例子自己结合实际，可以很快的初步掌握GMT软件的基础操作。
+<h3 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h3><pre><code>基本上看YouTube上陳明凱的个人频道是最快的捷径，结合他给出的相应的例子自己结合实际，可以很快的初步掌握GMT软件的基础操作。
 
 后期熟练各个模块命令之后更多是结合GMT中国社区内的参考手册进行学习，因为GMT软件包含  
 很多功能，而现在阶段我们需要的功能就是制作地形图，绘画海岸线，以及绘制经纬度参考坐  
@@ -486,7 +477,7 @@ rm 删除文件（后缀与cd相同）
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#GMT简介"><span class="nav-number">1.</span> <span class="nav-text">GMT简介</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#文档说明"><span class="nav-number">1.1.</span> <span class="nav-text">文档说明</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#GSView"><span class="nav-number">1.1.1.</span> <span class="nav-text">GSView</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#GMT简介"><span class="nav-number">1.</span> <span class="nav-text">GMT简介</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#文档说明"><span class="nav-number">1.1.</span> <span class="nav-text">文档说明</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GMT安装教程"><span class="nav-number">2.</span> <span class="nav-text">GMT安装教程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#GMT主体"><span class="nav-number">2.0.1.</span> <span class="nav-text">GMT主体</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GMT辅助软件"><span class="nav-number">2.1.</span> <span class="nav-text">GMT辅助软件</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Notepad"><span class="nav-number">2.1.1.</span> <span class="nav-text">Notepad++</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Cygwin"><span class="nav-number">2.1.2.</span> <span class="nav-text">Cygwin</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#简单的unix命令操作"><span class="nav-number">2.1.2.1.</span> <span class="nav-text">简单的unix命令操作</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#GSView"><span class="nav-number">2.1.3.</span> <span class="nav-text">GSView</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GMT资料推荐"><span class="nav-number">3.</span> <span class="nav-text">GMT资料推荐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#翻墙软件推荐"><span class="nav-number">4.</span> <span class="nav-text">翻墙软件推荐</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#备注"><span class="nav-number">4.1.</span> <span class="nav-text">备注</span></a></li></ol></li></ol></div>
             
           </div>
         </section>
